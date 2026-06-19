@@ -1,0 +1,44 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 個人セッション・設定
+.claude/
+.playwright-mcp/
+
+# Cloudflare デプロイ環境（API認証情報含む）
+_cf-deploy/
+
+# 認証
+.env
+.env.*
+
+# ログ
+*.log
+*.log.err
+.cloudflared*
+.lhr.log*
+.serve.log*
+
+# バックアップ / 一時ファイル
+*.bak
+*.bak-*
+*.backup-*
+*.backup
+index-show.html
+index.html.bak-*
+index.html.backup-*
+*.winpath.bak
+
+# Windows / 過去環境の残骸スクリプト
+.crop-portraits.ps1
+.make-*.ps1
+.zoom-*.ps1
+.serve.js
+
+# pytest / playwright
+__pycache__/
+.pytest_cache/
+*.pyc
