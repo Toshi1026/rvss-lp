@@ -3543,7 +3543,11 @@
     font-size: clamp(15px, 2vw, 18px);
     line-height: 1.8;
     letter-spacing: 0.04em;
-    text-wrap: balance;
+    text-wrap: pretty;
+    max-width: 32em;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
   }
   @media (max-width: 540px) {
     .sec--cta-mid { padding: 40px 0; }
@@ -3789,6 +3793,8 @@
     line-height: 2;
     max-width: 560px;
     margin: 0 auto 44px;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
   }
   .final .ctas{ display:flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
   .final .ctas .btn-line{ padding: 18px 32px; font-size: 15px; }
@@ -5185,8 +5191,7 @@
     <div class="cta-mid-inner reveal">
       <p class="cta-mid-copy">
         学べる × 動かす × 繋がる。<br>
-        さらに詳しく知りたい方は、公式LINEのトーク画面に戻り、<br>
-        リッチメニューの「オンライン合同説明会」をタップしてください。
+        さらに詳しく知りたい方は、公式LINEのトーク画面に戻り、<span style="white-space:nowrap;">リッチメニュー</span>の<span style="white-space:nowrap;">「オンライン合同説明会」</span>をタップしてください。
       </p>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3kh73UHvBRZyNrb4WjNVifSBAnLz9lOcZYFPGZKzOBV6BGA/viewform" class="btn-line gousetsu-cta">
         <svg class="ic" viewBox="0 0 24 24" fill="currentColor"><path d="M19 4H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h2v3l4-3h8a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3z"/></svg>
@@ -5447,9 +5452,8 @@
   <div class="wrap">
     <div class="cta-mid-inner reveal">
       <p class="cta-mid-copy">
-        参加を迷っているうちに、<br>
-        創業期は終わる。<br>
-        毎週月曜21:00〜の合同説明会で、活動内容や参加までの流れをご案内しています。
+        参加を迷っているうちに、創業期は終わる。<br>
+        <span style="white-space:nowrap;">毎週月曜21:00〜</span>の合同説明会で、活動内容や参加までの流れをご案内しています。
       </p>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3kh73UHvBRZyNrb4WjNVifSBAnLz9lOcZYFPGZKzOBV6BGA/viewform" class="btn-line gousetsu-cta">
         <svg class="ic" viewBox="0 0 24 24" fill="currentColor"><path d="M19 4H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h2v3l4-3h8a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3z"/></svg>
@@ -5541,9 +5545,8 @@
     <div class="kicker">Join Our Community</div>
     <h2 class="reveal">この国を、もう一度、<br><span class="accent">挑戦者の国に。</span></h2>
     <p class="reveal delay-1">
-      活動内容を見てさらに詳しく知りたい方は、公式LINEのトーク画面に戻り、<br>
-      リッチメニューの「オンライン合同説明会」をタップしてください。<br>
-      毎週月曜21:00〜、RVSSの活動内容や参加までの流れをご案内しています。
+      活動内容を見てさらに詳しく知りたい方は、公式LINEのトーク画面に戻り、<span style="white-space:nowrap;">リッチメニュー</span>の<span style="white-space:nowrap;">「オンライン合同説明会」</span>をタップしてください。<br>
+      <span style="white-space:nowrap;">毎週月曜21:00〜</span>、RVSSの活動内容や参加までの流れをご案内しています。
     </p>
     <div class="ctas reveal delay-2">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3kh73UHvBRZyNrb4WjNVifSBAnLz9lOcZYFPGZKzOBV6BGA/viewform" class="btn-line gousetsu-cta">
@@ -5552,7 +5555,7 @@
       </a>
     </div>
     <p class="reveal delay-2" style="margin-top: 18px; font-size: 12px; opacity: 0.75;">
-      不安な点を先に確認したい方は、公式LINEのリッチメニュー「よくあるご質問」から確認できます。
+      不安な点を先に確認したい方は、公式LINEの<span style="white-space:nowrap;">リッチメニュー</span><span style="white-space:nowrap;">「よくあるご質問」</span>から確認できます。
     </p>
   </div>
 </section>
